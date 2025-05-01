@@ -1,0 +1,42 @@
+body {
+    margin-top: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #bebdbd;
+    
+}
+.nav{
+    margin-left:-9px;
+    background-color:  rgb(21, 23, 23);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav.btn{
+    border: 2px solid red;
+  border-radius: 25px;
+}
+.card{  
+    border: 2px solid red;
+  border-radius: 25px;
+    color: white;
+    margin: 20px;
+    align-items: center;
+    width: 200px;
+    display: flex;
+    background-color: rgb(21, 23, 23);
+    flex-direction: column;
+    padding: 10px;
+}
+.card img{
+    border: 2px solid red;
+  border-radius: 25px;
+    width: 100%;
+    height: 200px;
+}
+.dash{
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content: center;
+}
